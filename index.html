@@ -3,111 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alisha Tamboli's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Alisha Tamboli</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
-                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="home" class="welcome-section">
-        <div class="container text-center">
-            <h1 class="animate__animated animate__fadeInDown">Welcome to My Portfolio</h1>
-            <p class="animate__animated animate__fadeInUp">I am Alisha Tamboli, a Computer Science student skilled in Java and Web Development.</p>
-        </div>
-    </section>
-
-    <section id="about" class="about-section">
+    <!-- Header -->
+    <header>
         <div class="container">
-            <h2>About Me</h2>
-            <p>I am a Computer Science student currently pursuing my B.Tech at Shree Siddheshwar Women's College of Engineering. I have a strong foundation in Java, web development, and databases. I am passionate about learning new technologies and applying them in real-world projects.</p>
+            <nav>
+                <h1>Alisha Tamboli</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="intro">
+        <h2>Welcome to My Portfolio</h2>
+        <h1>Alisha Tamboli</h1>
+        <h3>A passionate final year student, quick learner, adaptable, specializing in web development and Java development with an understanding of databases.</h3>
+        <p>Explore my skills, projects, and certifications to learn more about my journey and expertise.</p>
+        <a href="#contact" class="contact-button">Get in Touch</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>I am a final year computer science student with a passion for web and Java development. I have a strong foundation in databases and a quick learning ability. My adaptability allows me to excel in different environments and tackle challenges effectively.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="content-section">
+        <h2>Skills</h2>
+        <div class="skill-blocks">
+            <div class="skill-block">Java</div>
+            <div class="skill-block">C</div>
+            <div class="skill-block">C++</div>
+            <div class="skill-block">HTML</div>
+            <div class="skill-block">CSS</div>
+            <div class="skill-block">JavaScript</div>
+            <div class="skill-block">React</div>
+            <div class="skill-block">MySQL</div>
+            <div class="skill-block">MongoDB</div>
+            <div class="skill-block">Spring Boot</div>
+            <div class="skill-block">Hibernate</div>
         </div>
     </section>
 
-    <section id="skills" class="skills-section">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Communication</li>
-                <li>C</li>
-                <li>Java</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SQL</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>C++</li>
-            </ul>
+    <!-- Projects Section -->
+    <section id="projects" class="content-section">
+        <h2>Projects</h2>
+        <div class="project-blocks">
+            <div class="project-block">
+                <h3>Railway Management System</h3>
+                <p>Implemented using JDBC to manage railway operations effectively.</p>
+            </div>
+            <div class="project-block">
+                <h3>My Personal Portfolio Website</h3>
+                <p>A  Attractive Portfolio Website using HTML and CSS</p>
+            </div>
         </div>
     </section>
 
-    <section id="experience" class="experience-section">
-        <div class="container">
-            <h2>Experience</h2>
-            <ul>
-                <li>Intern at TCR Innovation in Core Java</li>
-                <li>Intern at Octanet in Web Development</li>
-                <li>Intern at CodSoft in Java Development</li>
-            </ul>
+    <!-- Certificates Section -->
+    <section id="certificates" class="content-section certificates">
+        <h2>Certificates</h2>
+        <div class="certificate-blocks">
+            <div class="certificate-block">
+                <h3>React JS by Great Learning</h3>
+                <p></p>
+            </div>
+            <div class="certificate-block">
+                <h3>JavaScript for Beginners by Udemy</h3>
+                <p></p>
+            </div>
+            <div class="certificate-block">
+                <h3>Machine Learning Algorithms by Great Learning</h3>
+                <p> </p>
+            </div>
+            <div class="certificate-block">
+                <h3>Introduction to Python by DataCamp</h3>
+                <p></p>
+            </div>
+            <div class="certificate-block">
+                <h3>HTML by LinkedIn</h3>
+                <p></p>
+            </div>
+            <div class="certificate-block">
+                <h3>SQL by LinkedIn</h3>
+                <p></p>
+            </div>
         </div>
     </section>
 
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2>Projects</h2>
-            <ul>
-                <li>Weather Monitoring App</li>
-                <li>Car Website</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="certificates" class="certificates-section">
-        <div class="container">
-            <h2>Certificates</h2>
-            <ul>
-                <li>Certification in Machine Learning</li>
-                <li>Certification in Python</li>
-                <li>Certification in HTML and CSS by LinkedIn</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="education" class="education-section">
-        <div class="container">
-            <h2>Education</h2>
-            <p>Pursuing B.Tech at Shree Siddheshwar Women's College of Engineering, currently in the final year with Computer Science stream.</p>
-        </div>
-    </section>
-
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:tambolilaisha361@gmail.com">tambolilaisha361@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/alisha-tamboli-105302232" target="_blank">Alisha Tamboli</a></p>
-        </div>
-    </section>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Alisha Tamboli. All rights reserved.</p>
+    </footer>
 </body>
 </html>
